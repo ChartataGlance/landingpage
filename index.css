@@ -1,33 +1,94 @@
 /** @format */
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
 	margin: 0;
 	padding: 0;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'lato', sans-serif;
 	box-sizing: border-box;
    text-decoration: none;
    list-style: none;
 }
 
+body{
+   min-width: 384px;
+   min-height: 384px;
+  
+}
 
 
-.container {
-	width: 375px;
-   margin: 0 auto;
-	aspect-ratio: 16/9;
+.fcontainer {
 	background-color: rgb(255, 255, 255);
 	background-image: url(./footlogo.svg);
+   background-position: center;
    background-repeat: no-repeat;
+}
+
+
+
+.card {
+   
+	display: flex;
+	flex-direction: column;
+   padding: 50px;
+	border-radius: 20px;
+}
+
+
+
+
+
+.containerimg{
+   width: 95%;
+   margin: 0 auto;
+   border-radius: 20px;
+   margin-top: 30px;
+   background-color: aliceblue;
+   box-shadow: rgba(0, 0, 0,0.2) 0px 0px 10px 5px;
+
+}
+
+.containerimg h2{
+   padding: 10px;
+   text-align: center;
+
    
 }
 
-.card {
-	display: flex;
-	flex-direction: column;
-   padding: 20px;
-	border-radius: 20px;
+.containerimg p{
+   padding: 5px;
+   margin-bottom: 5px;
+   margin-left: 10px;
+   text-align: justify;
+   text-indent: 20px;
+   width: 95%;
+   font-weight: 500;
+   color: rgb(62, 24, 6);
 }
+
+
+
+.cardimg img{
+   width: 100%;
+   aspect-ratio: 16/9;
+   padding: 20px;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -138,3 +199,16 @@ a:hover .fa-telegram{
    align-items: center;
 }
 
+@media (min-width: 767px) {
+	.fcontainer{
+      display: flex;
+      justify-content: center;
+   }
+   p{
+      font-size: larger;
+   }
+   h2{
+      font-size: xx-large;
+      padding: 50px;
+   }
+}
