@@ -22,7 +22,7 @@
 	display: flex;
 	justify-content: flex-end;
 	padding: 10px;
-	font-size: 22px;
+	font-size: 12px;
 	font-weight: 600;
 	letter-spacing: 0.5rem;
    color: transparent;
@@ -117,5 +117,8 @@
 	}
 	.infocontent h2 {
 		font-size: 40px;
+	}
+	.clock{
+		font-size: x-large;
 	}
 }
