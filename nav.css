@@ -3,8 +3,7 @@
 nav {
 	display: flex;
 	justify-content: space-around;
-
-	min-height: 7vh;
+	min-height:5vh;
 	background-color: aliceblue;
 	font-family: "poppins", sans-serif;
 	font-weight: 400;
