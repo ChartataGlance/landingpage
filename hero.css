@@ -21,15 +21,13 @@
 .clock {
 	display: flex;
 	justify-content: flex-end;
-	padding: 10px;
 	font-size: 12px;
 	font-weight: 600;
-	letter-spacing: 0.5rem;
-   color: transparent;
+	color: transparent;
 	text-shadow: 1px 1px 1px rgba(8, 14, 81, 0.9);
 	-webkit-background-clip: text;
 	-moz-background-clip: text;
-	 background-clip: text;
+	background-clip: text;
 }
 
 .infocontent {
@@ -43,7 +41,6 @@
 
 .infocontent h1 {
 	font-size: 45px;
-
 	margin-top: -15px;
 	font-weight: 700;
 	line-height: 5rem;
@@ -118,7 +115,8 @@
 	.infocontent h2 {
 		font-size: 40px;
 	}
-	.clock{
+	.clock {
 		font-size: x-large;
+		opacity: 0.5;
 	}
 }
